@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-dark {
+    background-color: #1B1464;
+    color: #FFF;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.nav-link:hover {
+    color: #5f27cd;
+}
+
+.jumbotron {
+    background-image: url("../images/abacus.jpg");
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron > .overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0,0,0,.4);
+}
+
+.jumbotron > .inner {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-yellow {
+    background-color: #EA2027;
+    color: #FFF;
+}
+
+.bg-green {
+    background-color: #009432;
+    color: #FFF;
+}
+
+.bg-blue {
+    background-color: #0652DD;
+    color: #FFF;
+}
