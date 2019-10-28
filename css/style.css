@@ -39,16 +39,22 @@ body {
 }
 
 .bg-yellow {
-    background-color: #EA2027;
+    background-color: rgba(234, 32, 39, 0.95);
     color: #FFF;
 }
 
 .bg-green {
-    background-color: #009432;
+    background-color: rgba(0, 148, 50, 0.95);
     color: #FFF;
 }
 
 .bg-blue {
-    background-color: #0652DD;
+    background-color: rgba(6, 82, 221, 0.95);
     color: #FFF;
+}
+
+@media (max-width:600px) {
+    #heading-group h1 {
+        font-size: 2rem;
+    }
 }
